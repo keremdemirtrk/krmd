@@ -23,11 +23,11 @@ There is 4 command to use.
 2- list:   It is used when it is desired to display the added commands.
    -> krmd list
 
-3- Update: It is used if any of the added commands are wanted to be updated.
+3- update: It is used if any of the added commands are wanted to be updated.
    -> krmd update <command_id> "<command>"
       -> krmd update 5 "<command>"
 
-4- Delete: It is used to delete any of the added commands.
+4- delete: It is used to delete any of the added commands.
    -> krmd delete <command_id>
       -> krmd delete 5
 ```
