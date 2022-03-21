@@ -3,10 +3,26 @@
 ## Installation
 
 ```
-$ pip install -r requirements.txt
+$ pip install krmd
 
-$ python setup.py install
 ```
+## Usage
+
+There is 4 command to use. 
+
+1- add:    It is used when the command is wanted to be added.
+   -> krmd add "<command>" 
+
+2- list:   It is used when it is desired to display the added commands.
+   -> krmd list
+
+3- Update: It is used if any of the added commands are wanted to be updated.
+   -> krmd update <command_id> "<command>"
+      -> krmd update 5 "<command>"
+
+4- Delete: It is used to delete any of the added commands.
+   -> krmd delete <command_id>
+      -> krmd delete 5
 
 ## Development
 
@@ -32,27 +48,6 @@ $ krmd --help
 ### run pytest / coverage
 
 $ make test
-```
-
-
-### Releasing to PyPi
-
-Before releasing to PyPi, you must configure your login credentials:
-
-**~/.pypirc**:
-
-```
-[pypi]
-username = YOUR_USERNAME
-password = YOUR_PASSWORD
-```
-
-Then use the included helper function via the `Makefile`:
-
-```
-$ make dist
-
-$ make dist-upload
 ```
 
 ## Deployments
