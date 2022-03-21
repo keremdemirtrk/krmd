@@ -8,6 +8,7 @@ $ pip install krmd
 ```
 ## Usage
 
+```
 There is 4 command to use. 
 
 1- add:    It is used when the command is wanted to be added.
@@ -23,6 +24,7 @@ There is 4 command to use.
 4- Delete: It is used to delete any of the added commands.
    -> krmd delete <command_id>
       -> krmd delete 5
+```
 
 ## Development
 
