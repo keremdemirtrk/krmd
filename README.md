@@ -1,7 +1,9 @@
 # Simple command reminder application
-
 ```
-krmd is a simple command reminder application where you can add the commands, configs, parameters you use, and list, update, delete whenever you want. It basically consists of 4 commands. Usages can be found in the Usage section.
+krmd is a simple command reminder application where you can add the commands,configs, parameters you use,and list,
+update, delete whenever you want.
+It basically consists of 4 commands.
+Usages can be found in the Usage section.
 ```
 
 ## Installation
