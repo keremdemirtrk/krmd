@@ -17,7 +17,7 @@ setup(
     author='Kerem Demirturk',
     author_email='keremdemirtrk@gmail.com',
     url='https://github.com/keremdemirtrk/krmd',
-    license='LICENSE.txt',
+    license='GNU General Public License version 3',
     packages=find_packages(exclude=['ez_setup', 'tests*']),
     package_data={'krmd': ['templates/*']},
     include_package_data=True,
