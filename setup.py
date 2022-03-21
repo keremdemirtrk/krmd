@@ -17,7 +17,7 @@ setup(
     author='Kerem Demirturk',
     author_email='keremdemirtrk@gmail.com',
     url='https://github.com/keremdemirtrk/krmd',
-    license='unlicensed',
+    license='LICENSE.txt',
     packages=find_packages(exclude=['ez_setup', 'tests*']),
     package_data={'krmd': ['templates/*']},
     include_package_data=True,
