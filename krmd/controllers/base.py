@@ -13,7 +13,7 @@ class Base(Controller):
         label = 'base'
 
         # text displayed at the top of --help output
-        description = 'tldr for your local environment'
+        description = 'Simple Command Reminder Application'
 
         # text displayed at the bottom of --help output
         epilog = 'Usage: krmd command1 --foo bar'
